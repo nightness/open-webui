@@ -157,7 +157,7 @@
 						}}
 					>
 						<button
-							class="max-w-[60px] select-none flex rounded-xl p-1.5 w-full hover:bg-gray-50 dark:hover:bg-gray-850 transition"
+							class="max-w-[54px] select-none flex rounded-xl p-1.5 w-full hover:bg-gray-50 dark:hover:bg-gray-850 transition"
 							aria-label="User Menu"
 						>
 							<div class=" self-center">
