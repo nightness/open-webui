@@ -9,7 +9,8 @@
 	viewBox="0 0 24 24"
 	stroke-width={strokeWidth}
 	stroke="currentColor"
-	class={className}
+	class={`${className} max-w-[40px]`}
+	max="40px"
 >
 	<path
 		stroke-linecap="round"
