@@ -149,7 +149,7 @@
 							<img
 								src={profileImageUrl !== '' ? profileImageUrl : generateInitialsImage(name)}
 								alt="profile"
-								class=" rounded-full size-16 object-cover"
+								class=" rounded-full max-w-[80px] object-cover"
 							/>
 
 							<div

@@ -2,7 +2,7 @@
 	import { settings } from '$lib/stores';
 	import ProfileImageBase from './ProfileImageBase.svelte';
 
-	export let className = 'size-8';
+	export let className = 'max-w-[80px]';
 	export let src = '';
 </script>
 

@@ -22,7 +22,16 @@ export default defineConfig({
 		APP_BUILD_HASH: JSON.stringify(process.env.APP_BUILD_HASH || 'dev-build')
 	},
 	build: {
-		sourcemap: true
+		sourcemap: true,
+		rollupOptions: {
+			output: {
+				manualChunks(id) {
+					if (id.includes('node_modules')) {
+						return id.toString().split('node_modules/')[1].split('/')[0].toString();
+					}
+				}
+			}
+		}
 	},
 	worker: {
 		format: 'es'

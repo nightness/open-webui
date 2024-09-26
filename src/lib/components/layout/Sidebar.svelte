@@ -294,7 +294,7 @@
 					<img
 						crossorigin="anonymous"
 						src="{WEBUI_BASE_URL}/static/favicon.png"
-						class=" size-6 -translate-x-1.5 rounded-full"
+						class="max-w-[40px] -translate-x-1.5 rounded-full"
 						alt="logo"
 					/>
 				</div>

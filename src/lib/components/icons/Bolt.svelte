@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let className = 'size-3';
+	export let className = 'size-3 max-w-[40px]';
 	export let strokeWidth = '1.5';
 </script>
 
