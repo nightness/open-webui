@@ -383,7 +383,7 @@
 						<img
 							src={model?.info?.meta?.profile_image_url ?? '/static/favicon.png'}
 							alt="modelfile profile"
-							class=" rounded-full w-full h-auto object-cover"
+							class="max-w-[28px] rounded-full w-full h-auto object-cover"
 						/>
 					</div>
 				</div>

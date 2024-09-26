@@ -61,7 +61,7 @@
 				<div class="m-1 overflow-y-auto p-1 rounded-r-lg space-y-0.5 scrollbar-hidden">
 					{#each filteredModels as model, modelIdx}
 						<button
-							class="px-3 py-1.5 rounded-xl w-full text-left {modelIdx === selectedIdx
+							class="max-w-[28px] px-3 py-1.5 rounded-xl w-full text-left {modelIdx === selectedIdx
 								? 'bg-gray-50 dark:bg-gray-850 selected-command-option-button'
 								: ''}"
 							type="button"
@@ -77,7 +77,7 @@
 								<img
 									src={model?.info?.meta?.profile_image_url ?? '/static/favicon.png'}
 									alt={model?.name ?? model.id}
-									class="rounded-full size-6 items-center mr-2"
+									class="max-w-[28px] rounded-full items-center mr-2"
 								/>
 								{model.name}
 							</div>

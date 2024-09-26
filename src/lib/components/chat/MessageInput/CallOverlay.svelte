@@ -720,7 +720,7 @@
 					>
 				{:else}
 					<div
-						class=" {rmsLevel * 100 > 4
+						class="max-w-[28px] {rmsLevel * 100 > 4
 							? ' size-[4.5rem]'
 							: rmsLevel * 100 > 2
 								? ' size-16'
@@ -802,7 +802,7 @@
 						>
 					{:else}
 						<div
-							class=" {rmsLevel * 100 > 4
+							class="max-w-[28px] {rmsLevel * 100 > 4
 								? ' size-52'
 								: rmsLevel * 100 > 2
 									? 'size-48'

@@ -335,6 +335,7 @@
 		dir={$settings.chatDirection}
 	>
 		<ProfileImage
+			className="max-w-[28px]"
 			src={model?.info?.meta?.profile_image_url ??
 				($i18n.language === 'dg-DG' ? `/doge.png` : `${WEBUI_BASE_URL}/static/favicon.png`)}
 		/>
